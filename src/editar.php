@@ -8,7 +8,7 @@ $resultado = mysqli_fetch_array($consulta);
 
 <form method="POST" action="atualizar.php">
                 <fieldset>
-                    <legend class="titulocadastro"><h1>Editar Registro do Contato</h1></legend>
+                    <legend class="titulocadastro"><h1>Editar Registro do Contato!</h1></legend>
                         <br>
                         <div class="row inputBox m-3">
                             <input type="hidden" name="id" value="<?= $resultado[0]; ?>">
