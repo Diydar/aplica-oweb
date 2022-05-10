@@ -7,7 +7,7 @@ $id=$_GET['codigo'];
 $excluir=mysqli_query($con,"DELETE FROM contatos Where id='$id'");
 if($excluir==true){
     echo "<script>
-    alert('Contato excluido com sucesso!');
+    alert('Contato excluido com sucesso!!');
     window.location.href='index.php'
     </script> ";
 } else {
