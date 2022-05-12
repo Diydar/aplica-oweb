@@ -6,6 +6,15 @@ $consulta = mysqli_query($con, "SELECT * FROM contatos Where Id='$id'");
 $resultado = mysqli_fetch_array($consulta);
 ?>
 
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Cadastro | Projeto</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	</head>
+    <body>
 <form method="POST" action="atualizar.php">
                 <fieldset>
                     <legend class="titulocadastro"><h1>Editar Registro do Contato!</h1></legend>
@@ -37,8 +46,16 @@ $resultado = mysqli_fetch_array($consulta);
                         </div>
                         <br>
                         <div class="position-relative">
-                            <button type="submit" name="btnAtualizar">Atualizar Dados</button>
+                            <button type="submit" name="btnAtualizar" class="submit position-absolute top-50 start-50 translate-middle p-2 fs-3 m-3">Atualizar Dados</button>
                         </div>
 				</fieldset>
             </form>
-					
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>
+
+
+        </script>
+    </body>
+</html>
