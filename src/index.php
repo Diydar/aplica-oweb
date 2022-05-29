@@ -15,7 +15,6 @@
 	}
 ?>
 
-<!DOCTYPE html>
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
@@ -108,10 +107,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
         <script>
-
-            function DeleteConfirm() {
-            confirm("Tem certeza que quer apagar este contato?");
-            }
 
             let $seuCampoCpf = $("#cpf");
             $seuCampoCpf.mask('000.000.000-00');

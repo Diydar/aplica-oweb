@@ -1,0 +1,81 @@
+body {
+	font-style: arial;
+	background-image: white;
+}
+
+.loginpanel {
+	background-color: rgba(0, 0, 0, 0.9);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 80px;
+	border-radius: 15px;
+	color: white;
+}
+
+input {
+	padding: 15px;
+	border: none;
+	outline: none;
+}
+
+.submit {
+	background-color: dodgerblue;
+	border: none;
+	padding: 15px;
+	width: 100%;
+	border-radius: 5px;
+	color: white;
+	font-size: 15px;
+}
+
+.submit:hover {
+	background-color: deepskyblue;
+	cursor: pointer;
+}
+
+.titulocadastro {
+	font-weight: bold;
+}
+
+.box {
+	background-color: rgba(0, 0, 0, 0.9);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 15px;
+	color: white;
+	padding: 15px;
+	width: 20%;
+}
+
+fieldset {
+	border: 3px solid dodgerblue;
+}
+
+legend {
+	text-align: center;
+	font-size: 25px;
+}
+
+.inputbox {
+	position: relative;
+}
+
+.input-padrao {
+	background: none;
+	border: none;
+	border-bottom: 1px solid white;
+	outline: none;
+	font-size: 15px;
+	color: white;
+	width: 90%;
+}
+
+.labelInput {
+	top: 0px;
+	left: 0px;
+	pointer-events: none;
+}
